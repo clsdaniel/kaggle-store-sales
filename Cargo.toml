@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.102"
+burn = "0.21.0"
+burn-flex = { version = "0.21.0", features = ["apple-amx"] }
+csv = "1.4.0"
+muonts = "0.2.0"
+polars = { version = "0.54.4", features = ["lazy", "strings"] }
+rand = "0.10.1"
